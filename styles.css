@@ -16,27 +16,6 @@ body {
     border-radius: 10px;
 }
 
-.btn-danger {
-  background-color: red;
-  color: white;
-  padding: 10px;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.btn-primary {
-  background-color: #007bff;
-  color: white;
-  padding: 10px;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-
 .profile-img {
     width: 200px;
     height: 200px;
