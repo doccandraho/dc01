@@ -74,3 +74,9 @@ p {
 .social-button:hover {
     opacity: 0.8;
 }
+
+.social-button {
+    pointer-events: auto !important;
+    z-index: 9999;
+}
+
