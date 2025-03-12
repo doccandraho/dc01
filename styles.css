@@ -43,28 +43,34 @@ p {
 }
 
 .social-button {
-    display: inline-block;
-    padding: 12px 20px;
+    display: block;
     width: 80%;
+    padding: 12px 20px;
     text-decoration: none;
-    color: white !important;
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
-    transition: opacity 0.3s ease;
     font-size: 16px;
-    border: none;  /* Menghapus border merah */
+    transition: opacity 0.3s ease;
+    color: white !important;
+    background-color: inherit; /* Tambahkan ini untuk memastikan tidak blank */
 }
 
 /* Warna Tombol Media Sosial */
-.whatsapp { background-color: #25D366 !important; }  
-.tiktok { background-color: #010101 !important; }  
-.showcase { background-color: #FF6F00 !important; }  
-.youtube { background-color: #FF0000 !important; color: white !important; }  
-.facebook { background-color: #3b5998 !important; color: white !important; }  
-.instagram { background-color: #E1306C !important; color: white !important; }  
+.whatsapp { background-color: #25D366; }  
+.tiktok { background-color: #010101; }  
+.showcase { background-color: #FF6F00; }  
+.youtube { background-color: #FF0000; }  
+.facebook { background-color: #3b5998; }  
+.instagram { background-color: #E1306C; }  
 
-/* Untuk memastikan border merah dihilangkan */
-.youtube, .facebook, .instagram {
-    border: none !important;
+/* Pastikan warna tidak hilang karena link */
+a.youtube, a.instagram {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+/* Hover Efek */
+.social-button:hover {
+    opacity: 0.8;
 }
