@@ -108,15 +108,18 @@ html, body {
     justify-content: center;
 }
 
-.whatsapp {
-    animation: glowing-green 1.5s infinite alternate;
+@keyframes glowing {
+    0% { box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(255, 255, 255, 1); }
+    100% { box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); }
 }
 
-@keyframes glowing-green {
-    0% { box-shadow: 0 0 5px rgba(37, 211, 102, 0.5); }
-    50% { box-shadow: 0 0 20px rgba(37, 211, 102, 1); }
-    100% { box-shadow: 0 0 5px rgba(37, 211, 102, 0.5); }
-}
+.whatsapp { animation: glowing 1.5s infinite alternate; animation-delay: 0s; }
+.tiktok { animation: glowing 1.5s infinite alternate; animation-delay: 0.3s; }
+.showcase { animation: glowing 1.5s infinite alternate; animation-delay: 0.6s; }
+.youtube { animation: glowing 1.5s infinite alternate; animation-delay: 0.9s; }
+.facebook { animation: glowing 1.5s infinite alternate; animation-delay: 1.2s; }
+.instagram { animation: glowing 1.5s infinite alternate; animation-delay: 1.5s; }
 
 
 
