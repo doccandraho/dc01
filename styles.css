@@ -80,3 +80,10 @@ p {
     z-index: 9999;
 }
 
+.tiktok {
+    position: relative;
+    z-index: 9999;
+    pointer-events: auto !important;
+}
+
+
