@@ -86,4 +86,20 @@ p {
     pointer-events: auto !important;
 }
 
+.profile-container {
+    margin: 50px auto; /* Pastikan ini tetap ada */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
