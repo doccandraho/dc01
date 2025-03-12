@@ -46,14 +46,13 @@ p {
     display: block;
     width: 80%;
     padding: 12px 20px;
-    text-decoration: none;
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
     font-size: 16px;
     transition: opacity 0.3s ease;
+    text-decoration: none !important;
     color: white !important;
-    background-color: inherit; /* Tambahkan ini untuk memastikan tidak blank */
 }
 
 /* Warna Tombol Media Sosial */
@@ -64,8 +63,9 @@ p {
 .facebook { background-color: #3b5998; }  
 .instagram { background-color: #E1306C; }  
 
-/* Pastikan warna tidak hilang karena link */
-a.youtube, a.instagram {
+/* Pastikan tidak berubah warna */
+.youtube:visited, .youtube:hover,
+.instagram:visited, .instagram:hover {
     color: white !important;
     text-decoration: none !important;
 }
