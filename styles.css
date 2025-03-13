@@ -21,18 +21,23 @@ body {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px;
+    margin-bottom: 10px; /* Mengurangi jarak ke tulisan "Doc Chan" */
 }
 
+
 h1 {
-    font-size: 24px;
-    color: #333;
+    font-size: 36px; /* Memperbesar ukuran font */
+    font-weight: bold; /* Membuat teks tebal */
+    color: #2c3e50; /* Warna biru tua yang elegan */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Efek bayangan halus */
+    margin-top: 5px; /* Mengurangi jarak dari foto ke tulisan */
+    margin-bottom: 5px; /* Mengurangi jarak ke deskripsi */
 }
 
 p {
     font-size: 16px;
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* Jarak lebih kecil ke tombol */
 }
 
 .social-buttons {
